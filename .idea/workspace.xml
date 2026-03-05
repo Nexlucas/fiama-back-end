@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecc59aa3-6623-43db-abdf-9f5167d0cfd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apm/src/apm/admapm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apm/src/apm/aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apm/src/apm/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apm/src/apm/senai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apm/src/apm/socio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/Biolab-POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/Biolab-POO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/src/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/src/aula/animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/src/aula/animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab-POO/src/aula/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab-POO/src/aula/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/Biolab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/Biolab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/src/aula03/ifElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/src/aula03/ifElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/src/aula04/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/src/aula04/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/src/aula04/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/src/aula04/For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biolab2/src/aula04/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biolab2/src/aula04/While.java" afterDir="false" />
-    </list>
+    <list default="true" id="ecc59aa3-6623-43db-abdf-9f5167d0cfd4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,6 +73,7 @@
       <workItem from="1772527599476" duration="238000" />
       <workItem from="1772527850669" duration="19000" />
       <workItem from="1772528019176" duration="32000" />
+      <workItem from="1772698262626" duration="23000" />
     </task>
     <servers />
   </component>
