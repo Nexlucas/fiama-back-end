@@ -9,6 +9,6 @@ public class EntradaDeDados {
         Double altura= sc.nextDouble();
         Double peso= sc.nextDouble();
         Double imc= peso/(altura*altura);
-        IO.println(imc);
+        System.out.println(imc);
     }
 }

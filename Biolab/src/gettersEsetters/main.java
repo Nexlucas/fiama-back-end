@@ -5,12 +5,12 @@ public class main {
         Funcionarios funcionarios =  new Funcionarios();
 
         funcionarios.setNome("lucas");
-        IO.println(funcionarios.getNome());
+        System.out.println(funcionarios.getNome());
 
         funcionarios.setSalario(1850);
-        IO.println(funcionarios.getSalario());
+        System.out.println(funcionarios.getSalario());
 
         funcionarios.setCargo("Caminhoneiro");
-        IO.println(funcionarios.getCargo());
+        System.out.println(funcionarios.getCargo());
     }
 }
