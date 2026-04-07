@@ -2,13 +2,23 @@ package AtividadePix;
 
 public class Main {
     public static void main(String[] args) {
-        Conta teste = new Conta(23,1000,"teste");
-        Conta teste1 = new Conta(24,1500,"teste1");
+       Conta caio = new Pagamentos(35, 2000, "caio");
+       Conta bruno = new Pagamentos(67, 4000, "bruno");
 
-        teste1.pix(100,teste);
+       caio.exibirSaldo();
+       bruno.exibirSaldo();
+        System.out.println();
+       caio.pix(300,bruno);
+        System.out.println();
+       caio.exibirSaldo();
+       bruno.exibirSaldo();
+       System.out.println();
+       bruno.cartaoCredito(123);
+        System.out.println();
+       bruno.gerarBoleto(caio,1222);
 
-        teste1.cartaoCredito(10000);
-        teste1.cartaoCredito(50);
+
+
 
     }
 }

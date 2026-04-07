@@ -1,16 +1,17 @@
-package correcaoExConta;
+package Contasbancarias;
 
-public class PJ extends Conta{
-    public PJ() {
+public class CC extends Conta{
+    public CC() {
     }
 
-    public PJ(int numero, int agencia, double saldo, String titular) {
+    public CC(int numero, int agencia, double saldo, String titular) {
         super(numero, agencia, saldo, titular);
     }
 
     @Override
+
     public void calcularTarifaMensal() {
-        setSaldo(getSaldo()-20);
+        setSaldo(getSaldo()-12);
         System.out.println("houve desconto da tarifa");
         exibirSaldo();
     }

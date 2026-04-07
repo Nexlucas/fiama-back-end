@@ -1,10 +1,10 @@
 package AtividadePix;
 
-public class Conta {
-    private int agencia;
-    private double saldo;
-    private String titular;
-    private double fatura;
+public abstract class Conta {
+    public int agencia;
+    public double saldo;
+    public String titular;
+    public double fatura;
 
     public Conta() {
     }
@@ -57,19 +57,12 @@ public class Conta {
         System.out.println("Seu saldo é: " + saldo);
     }
 
-    public void pix(double valor,Conta alvo){
-        System.out.println("Pix realizado de " + this.titular + " para " + alvo.titular + " No Valor de: " + valor);
-        alvo.depositar(valor);
-        this.sacar(valor);
-    }
+    public abstract void pix(double valor,Conta alvo);
 
-    public void cartaoCredito(double valor){
-        this.fatura += valor;
-        System.out.println(valor + "R$ foi adicionado a sua fatura valor da fatura atual: " + fatura);
-    }
-    public void cartaoDebito(double valor){
-        sacar(valor);
-    }
+
+    public abstract void cartaoCredito(double valor);
+
+    public abstract void gerarBoleto(Conta alvo,double valor);
 
 
 }

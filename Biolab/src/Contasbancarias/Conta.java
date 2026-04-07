@@ -1,4 +1,4 @@
-package correcaoExConta;
+package Contasbancarias;
 
 public abstract class Conta {
     private int numero;
@@ -48,7 +48,7 @@ public abstract class Conta {
     }
 
     public double depositar(double valor){
-        System.out.println(this.titular + " Fez um deposito de: " + valor + "Seu saldo atual é: " + saldo);
+        System.out.println(this.titular + " Fez um deposito de: " + valor + " Seu saldo atual é: " + saldo);
         return saldo = saldo + valor;
     }
 
