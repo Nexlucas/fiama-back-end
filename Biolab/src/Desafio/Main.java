@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
         List<Pessoa> banco = new ArrayList<>();
         List<Pessoa> cache = new ArrayList<>();
 
@@ -16,11 +16,30 @@ public class Main {
         banco.add(new Pessoa(3,"rikelme",20));
         banco.add(new Pessoa(4,"rafael",15));
         banco.add(new Pessoa(5,"gabriel",16));
-        cache.add(new Pessoa(6,"douglas",30));
-        cache.add(new Pessoa(7,"bruno",25));
-        cache.add(new Pessoa(8,"caio",21));
-        cache.add(new Pessoa(9,"sandro",18));
-        cache.add(new Pessoa(10,"leonardo",29));
+        cache.add(new Pessoa());
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o ID");
+        int id = sc.nextInt();
+        boolean encontrada = false;
+
+
+        for(Pessoa pessoa : cache){
+            if (id == pessoa.getId()) {
+                System.out.println("Pessoa encontrada no cache: " + pessoa);
+                encontrada = true;
+            }
+        }
+
+
+        if (!encontrada) {
+            for (Pessoa pessoa : banco) {
+                if (id == pessoa.getId()) {
+                    System.out.println("Pessoa encontrada no banco: " + pessoa);
+                    cache.add(pessoa);
+                }
+            }
+        }
+
 
     }
 }
