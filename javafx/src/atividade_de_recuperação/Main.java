@@ -23,7 +23,7 @@ public class Main {
 
         JLabel label1 = new JLabel("Nome");             // Jlabel e usado pra mostrar texto
         label1.setBounds(40,50,200,40);   // aqui to escolhendo o tamanho e posisão do Jlabel
-        JTextField input1 = new JTextField();
+        JTextField input1 = new JTextField();               // JTextField ele  cria um campo que você pode digitar
         input1.setBounds(40,80,200,40);
 
         JLabel label2 = new JLabel("Preço");
@@ -41,12 +41,12 @@ public class Main {
             double pre = Double.parseDouble(input2.getText());
             int quan = Integer.parseInt(input3.getText());
 
-            double valor = pre * quan;
+            double valor = pre * quan;                          // a variavel valor pega o preço e multplica pela quantidade
 
             list.add(new Produto(nome,pre,quan,valor));
 
             if (pre <= 0 || quan <= 0){
-               JOptionPane.showMessageDialog(null,"Preço e quantidade devem ser maiores que zero."); //os if estao vendo se o input está vazio e se os numeros é maior que 0
+                JOptionPane.showMessageDialog(null,"Preço e quantidade devem ser maiores que zero."); //os if estao vendo se o input está vazio e se os numeros é maior que 0
             }else {
                 if (input1.getText().isEmpty() || input2.getText().isEmpty() || input3.getText().isEmpty()){
                     JOptionPane.showMessageDialog(null,"Preencha todos os campos.");
