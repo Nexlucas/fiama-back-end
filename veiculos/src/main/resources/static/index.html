@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Sistema de Usuários</title>
+
+    <link
+            rel="stylesheet"
+            href="style.css"
+    >
+
+</head>
+
+<body>
+
+<main class="container">
+
+    <!-- ========================================== -->
+    <!-- CADASTRO -->
+    <!-- ========================================== -->
+
+    <section class="card">
+
+        <h2>Cadastrar veiculo</h2>
+
+        <form id="formUsuario">
+
+            <label for="marca">
+                Marca
+            </label>
+
+            <input
+                    type="text"
+                    id="marca"
+                    placeholder="Informe a marca"
+                    required
+            >
+
+            <label for="modelo">
+                Modelo
+            </label>
+
+            <input
+                    type="text"
+                    id="modelo"
+                    placeholder="Informe o modelo do veiculo"
+                    required
+            >
+
+            <label for="tipo">
+                Tipo
+            </label>
+
+            <input
+                    type="text"
+                    id="tipo"
+                    placeholder="Informe o tipo do veiculo(ex: carro,moto)"
+                    required
+            >
+
+            <label for="ano">
+                Ano
+            </label>
+
+            <input
+                    type="number"
+                    id="ano"
+                    placeholder="Informe o ano do veiculo"
+                    required
+            >
+
+            <label for="valor">
+                valor
+            </label>
+
+            <input
+                    type="number"
+                    id="valor"
+                    placeholder="Informe o valor do veiculo"
+                    required
+            >
+
+            <button type="submit">
+                Cadastrar
+            </button>
+
+        </form>
+
+        <p id="mensagem"></p>
+
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- LISTAGEM -->
+    <!-- ========================================== -->
+
+    <section class="card">
+
+        <div class="titulo">
+
+            <h2>
+                Veiculos cadastrados
+            </h2>
+
+            <button id="btnAtualizar">
+                Atualizar
+            </button>
+
+        </div>
+
+        <table>
+
+            <thead>
+
+            <tr>
+
+                <th>ID</th>
+
+                <th>Marca</th>
+
+                <th>Modelo</th>
+
+                <th>ano</th>
+
+                <th>tipo</th>
+
+                <th>valor</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="tabelaUsuarios">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- BUSCAR USUÁRIO -->
+    <!-- ========================================== -->
+
+    <section class="card">
+
+        <h2>
+            Buscar usuário
+        </h2>
+
+        <div class="busca">
+
+            <input
+                    type="number"
+                    id="idBusca"
+                    placeholder="Digite o ID"
+            >
+
+            <button id="btnBuscar">
+                Buscar
+            </button>
+
+        </div>
+
+        <div id="resultadoBusca"></div>
+
+    </section>
+
+
+    <!-- ========================================== -->
+    <!-- EDITAR USUÁRIO -->
+    <!-- ========================================== -->
+
+    <section
+            class="card"
+            id="secaoEdicao"
+            style="display: none;"
+    >
+
+        <h2>
+            Editar usuário
+        </h2>
+
+        <form id="formEdicao">
+
+            <!-- ID do usuário -->
+            <input
+                    type="hidden"
+                    id="idEdicao"
+            >
+
+            <label for="nomeEdicao">
+                Nome
+            </label>
+
+            <input
+                    type="text"
+                    id="nomeEdicao"
+                    placeholder="Digite o nome"
+                    required
+            >
+
+            <label for="emailEdicao">
+                E-mail
+            </label>
+
+            <input
+                    type="email"
+                    id="emailEdicao"
+                    placeholder="Digite o e-mail"
+                    required
+            >
+
+            <label for="senhaEdicao">
+                Senha
+            </label>
+
+            <input
+                    type="password"
+                    id="senhaEdicao"
+                    placeholder="Digite a nova senha"
+                    required
+            >
+
+            <div class="acoes">
+
+                <button type="submit">
+                    Salvar alterações
+                </button>
+
+                <button
+                        type="button"
+                        id="btnCancelarEdicao"
+                >
+                    Cancelar
+                </button>
+
+            </div>
+
+        </form>
+
+        <p id="mensagemEdicao"></p>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
